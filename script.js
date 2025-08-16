@@ -36,35 +36,48 @@ tl.to("#leaf",{
 
 
 
+
+
+
 var tl2= gsap.timeline({scrollTrigger:{
     trigger: ".three",
     start: "0% 98%",
     end: "50% 50%",
     scrub: true,
-    markers: true,
+    // markers: true,
 }})
 
 
 tl2.from("#lemon",{
     opacity: "0",
     rotate: "-90deg",
-    duration: ".5",
     left: "-50%",
     top:"10%"
-},'sameTime')
+},'ca')
 
 tl2.from("#CocaCola",{
     opacity: "0",
     rotate: "40deg",
-    duration: ".5",
     right: "-50%",
-    top:"-%"
-},'sameTime')
+
+},'ca')
 
 tl2.from("#Sprite",{
     opacity: "0",
     rotate: "40deg",
-    duration: ".5",
     right: "-50%",
-    top:"-%"
-},'sameTime')
+},'ca')
+
+
+tl2.to("#orangeSlice",{
+    width: "25%",
+    left: "37.5%",
+    top:"203%",
+},'ca')
+
+tl2.to("#fanta",{
+    width: "37%",
+    top:"211.5%",
+    left: "31.5%",
+
+},'ca')
