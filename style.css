@@ -74,13 +74,6 @@ nav a, i{
     color: #fff;
 }
 
-
-.two{
-    width: 100%;
-    height: 100vh;
-    background-color: antiquewhite;
-}
-
 #leaf{
     position: absolute;
     width: 18%;
@@ -95,4 +88,38 @@ nav a, i{
     top: 15%;
     left: 5%;
     transform: rotate(60deg);
+}
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(148, 47, 0);
+}
+
+.lft-two, .rght-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4vh;
+}
+
+
+.lft-two svg{
+    margin-top: 50vh;
+    width: 80%;
+    transform: rotateX(50deg);
+}
+
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+.rght-two p{
+    color: #fff;
+    font-size: 1vw;
+    width: 80%;
 }
