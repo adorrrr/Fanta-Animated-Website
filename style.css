@@ -135,7 +135,6 @@ nav a, i{
 
 
 .three{
-    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -173,25 +172,29 @@ nav a, i{
 }
 
 #Sprite{
-    top: 15%;
+    top: -12%;
     position: absolute;
-    width: 13%;
+    width: 56%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
 #CocaCola{
-    top: 10%;
+    top: -20%;
     position: absolute;
-    width: 23.5%;
+    width: 100%;
+    left: 30%;
+    transform: translate(-30%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
-#org{
-    width: 25vw;
-    position: absolute;
-    top: 0%;
-}
+
 
 #lemon{
-    width: 33vw;
+    top: -35%;
     position: absolute;
-    top: -6%;
+    left: 30%;
+    width: 33vw;
+    transform: translate(-36%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
+

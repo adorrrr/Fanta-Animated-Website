@@ -3,7 +3,7 @@ var tl = gsap.timeline({scrollTrigger:{
     start: "0% 98%",
     end: "70% 50%",
     scrub: true,
-    markers: true,
+    // markers: true,
 }})
 
 tl.to("#fanta",{
@@ -34,3 +34,37 @@ tl.to("#leaf",{
     rotate: "280deg"
 },'sameTime')
 
+
+
+var tl2= gsap.timeline({scrollTrigger:{
+    trigger: ".three",
+    start: "0% 98%",
+    end: "50% 50%",
+    scrub: true,
+    markers: true,
+}})
+
+
+tl2.from("#lemon",{
+    opacity: "0",
+    rotate: "-90deg",
+    duration: ".5",
+    left: "-50%",
+    top:"10%"
+},'sameTime')
+
+tl2.from("#CocaCola",{
+    opacity: "0",
+    rotate: "40deg",
+    duration: ".5",
+    right: "-50%",
+    top:"-%"
+},'sameTime')
+
+tl2.from("#Sprite",{
+    opacity: "0",
+    rotate: "40deg",
+    duration: ".5",
+    right: "-50%",
+    top:"-%"
+},'sameTime')
