@@ -1,4 +1,4 @@
-# WiseConsult – AI Consulting Website
+# Fanta Vibes Website
 
 <img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1755365275/Screenshot_2025-08-16_225205_dzzy4w.png"/>
 
