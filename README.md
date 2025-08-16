@@ -1,52 +1,44 @@
-# Fanta Vibes Website
+# Fanta – Animated Brand Experience Website
 
 <img src="https://res.cloudinary.com/dphnu6u05/image/upload/v1755365275/Screenshot_2025-08-16_225205_dzzy4w.png"/>
 
 
-**AI Consulting. Engineered for Tomorrow’s Triumph.**  
-We craft intelligent, adaptive solutions that drive efficiency, spark innovation, and scale impact—today and beyond.
+**Refreshing Animation. Designed to Engage.**
+This project brings the Fanta brand to life through playful scroll-triggered animations, interactive visuals, and smooth transitions that capture the energy and fun of the drink.
 
 ## 🌐 Live Demo
 
-[View Live Website](#) 
+[View Live Website](https://fanta-animated-website.vercel.app/) 
 
 
 
 ##  Project Overview
 
-WiseConsult is a responsive and modern AI consulting website built using **React**, **SCSS**, and **Swiper.js**. This website showcases the company’s AI services, solutions, pricing plans, client testimonials, and industry insights with a focus on user-friendly UI/UX.
+Fanta is a scroll-animated landing page built with HTML, CSS, and JavaScript (GSAP). The site highlights the product through dynamic visuals such as flying fruit slices, gliding bottles, and animated text sections all crafted to create an engaging brand experience with a modern UI/UX focus.
 
 
 
 ##  Features
 
--  **Hero Section** with strong branding message and call-to-actions  
--  **Services Overview** (AI Strategy, Custom Models, Integration & more)  
--  **Trust & Stats**: Showcasing credibility through business stats  
--  **Why Choose Us**: Highlights competitive advantages  
--  **Pricing Plans**: Transparent monthly pricing tiers  
--  **Client Testimonials** via Swiper.js carousel  
--  **Blogs & Insights**: Industry articles with images and timestamps  
--  **FAQs Accordion**  
-
+-  **Hero Section** with Branding: Bold "FANTA" headline with animated fruit slices and bottles.
+-  **Scroll Animations (GSAP)** 🍊 Oranges, 🍋 lemons, and bottles move and resize as users scroll.  
+-  **Product Cards**: CocaCola, Fanta, and Sprite showcased with smooth entry animations. 
+-  **Interactive Flow**:Each section reacts as the user scrolls for a lively browsing experience.
 
 
 
 ##  Tech Stack
 
-- **React JS** – Frontend Library  
-- **SCSS** – For component-level styling  
-- **Swiper.js** – Carousel for testimonials  
-
-
-
+- **HTML5** – Website structure  
+- **CSS3** – Styling & layout  
+- **Javascript (GSAP + ScrollTrigger)** – Smooth scroll animations & transitions
 
 
 
 
 ##  Credits
 
-* Design by:  
+* Animation Library: GSAP
 * Developed by: [Ahasanul Monir Adar](https://www.linkedin.com/in/ahasanul-monir-adar-8b8464274/)
 
 
@@ -54,7 +46,6 @@ WiseConsult is a responsive and modern AI consulting website built using **React
 ## 📬 Contact
 
 Have questions or want to collaborate?
-
 📧 Email: [ahasanulmoniradar@gmail.com](mailto:your.email@example.com)
 🔗 LinkedIn: [Ahasanul Monir Adar](https://www.linkedin.com/in/ahasanul-monir-adar-8b8464274/)
 
