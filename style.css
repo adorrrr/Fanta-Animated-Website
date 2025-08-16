@@ -55,6 +55,7 @@ nav a, i{
     position: absolute;
     width: 40%;
     z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
 #orangeSlice{
@@ -63,6 +64,7 @@ nav a, i{
     left: 33%;
     width: 15%;
     z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
 #orange{
@@ -71,6 +73,7 @@ nav a, i{
     z-index: 3;
     top: 55%;
     right: 30%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
 .one h1{
@@ -84,6 +87,7 @@ nav a, i{
     top: 60%;
     left: 80%;
     transform: rotate(-90deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 
 }
 #leaf1{
@@ -92,6 +96,7 @@ nav a, i{
     top: 15%;
     left: 5%;
     transform: rotate(60deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
 }
 
 .two{
@@ -141,6 +146,7 @@ nav a, i{
 }
 
 .card{
+    position: relative;
     width: 25vw;
     height: 70vh;
     gap: 2vh;
