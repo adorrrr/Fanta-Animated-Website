@@ -12,6 +12,7 @@ This project brings the Fanta brand to life through playful scroll-triggered ani
 
 
 
+
 ##  Project Overview
 
 Fanta is a scroll-animated landing page built with HTML, CSS, and JavaScript (GSAP). The site highlights the product through dynamic visuals such as flying fruit slices, gliding bottles, and animated text sections all crafted to create an engaging brand experience with a modern UI/UX focus.
